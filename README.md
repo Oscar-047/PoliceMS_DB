@@ -73,4 +73,111 @@ Enhances Transparency: Every actor’s role and data interaction is recorded and
 
 - Diagram created using BPMN tools (Lucidchart / draw.io).
 
+  //LOGICA_MODEL_DESIGN
+
+  # Phase 3: Logical Model Design
+
+## Objective
+This phase presents the logical data model for the PoliceMS_DB system, aligning with the problem statement and business process from Phases 1 and 2. It defines all necessary entities, relationships, keys, and constraints based on real-world law enforcement operations.
+
+
+
+## Entities and Attributes
+
+### 1. Officers
+- officer_id (PK, int)
+- name (varchar)
+- rank (varchar)
+- phone (varchar)
+- email (varchar)
+
+### 2. Crimes
+- crime_id (PK, int)
+- crime_type (varchar)
+- date_reported (date)
+- location (varchar)
+- description (text)
+
+### 3. Cases
+- case_id (PK, int)
+- case_status (varchar)
+- opened_on (date)
+- closed_on (date)
+- officer_id (FK → Officers.officer_id)
+
+### 4. Suspects
+- suspect_id (PK, int)
+- name (varchar)
+- dob (date)
+- address (varchar)
+
+### 5. Victims
+- victim_id  (PK, int)
+- name (varchar)
+- dob (date)
+- address  (varchar)
+
+### 6. Resources
+- resource_id (PK, int)
+- resource_type (varchar)
+- assigned_to (int)
+- status (varchar)
+
+---
+
+## 🔗 Relationship Tables
+
+### Case_Crime
+- case_id (FK)
+- crime_id (FK)
+- Composite PK: (case_id, crime_id)
+
+### Case_Suspect
+case_id (FK)
+suspect_id (FK)
+Composite PK: (case_id, suspect_id)
+
+### Case_Victim
+- case_id (FK)
+- victim_id (FK)
+- Composite PK: (case_id, victim_id)
+
+---
+
+## Relationships & Constraints
+
+- **One-to-Many**: Officers → Cases
+- **Many-to-Many**:
+  - Cases ↔ Crimes (via Case_Crime)
+  - Cases ↔ Suspects (via Case_Suspect)
+  - Cases ↔ Victims (via Case_Victim)
+- **Constraints**:
+  - PKs defined on all main tables
+  - Composite PKs on junction tables
+  - FKs enforce referential integrity
+  - Fields like email, phone, status expected to use constraints such as NOT NULL, CHECK, and/or UNIQUE where applicable (to be handled in physical design)
+
+
+
+# Normalization
+
+ All tables are in **3NF**:
+ No repeating groups
+ All non-key attributes are fully functionally dependent on the primary key
+ No transitive dependencies
+
+-
+
+# Data Handling
+
+The model supports:
+Multiple suspects/victims per case
+Shared crimes across cases
+Assignment of officers and resources
+Accurate tracking of case progress and entity relationships
+
+
+
+
+
 
