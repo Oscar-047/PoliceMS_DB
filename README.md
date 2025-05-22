@@ -1,5 +1,5 @@
 # Project Overview
-**PoliceMS_DB** is a centralized police management system designed to streamline law enforcement operations, including crime tracking, officer deployment, case monitoring, and resource management.
+PoliceMS_DB is a centralized police management system designed to streamline law enforcement operations, including crime tracking, officer deployment, case monitoring, and resource management.
 
 #  Group Member
 Name:IRADUKUNDA Oscar
@@ -60,7 +60,7 @@ This business process represents the flow of crime reporting, case assignment, a
    - Collects evidence,
    - Submits the final report.
 
-8. **Update Case Status** (Case System)  
+8. Update Case Status (Case System)  
    Once complete, the case is marked as closed in the system.
 
 # MIS Value
