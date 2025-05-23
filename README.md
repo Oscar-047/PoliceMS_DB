@@ -177,6 +177,62 @@ Assignment of officers and resources
 Accurate tracking of case progress and entity relationships
 
 
+// Phase_4_Database_Creation
+
+# Phase 4: Database Creation and Naming
+
+In this phase, a pluggable Oracle database was created and configured to support the PoliceMS_DB system. The database creation followed the project naming convention and included full user access privileges.
+
+
+# Tasks Completed
+
+#1. Pluggable Database Creation
+
+A pluggable Oracle database was created using the naming format:
+
+monday_26281_oscar_policeBD_db
+
+- Admin User: iradukunda
+- Password: Oscar
+- Structure: File directories were specified via `FILE_NAME_CONVERT`.
+
+📸 **Screenshot**:  
+![Pluggable Database Created](screenshots/create_pdb1.png)
+
+
+
+### 2. Session Configuration and User Privileges
+
+- The session container was set to the newly created pluggable database.
+- A user `Oscar` was created and granted **all privileges**.
+
+📸 **Screenshot**:  
+![User Privileges Setup](screenshots/user_privileges.png)
+
+---
+
+### 3. Table Creation Verification
+
+After connecting to the database via Oracle SQL Developer, all necessary tables were created and verified.
+
+**Created Tables:**
+- CASE_CRIME
+- CASE_SUSPECT
+- CASE_VICTIM
+- CASES
+- CRIMES
+- OFFICERS
+- RESOURCES
+- SUSPECTS
+- VICTIMS
+
+**Screenshot**:  
+![Table List](screenshots/table_list.png)
+
+
+## Access & Management
+
+All activities and data operations throughout the project were stored in this database. This setup ensures a centralized, secure, and manageable data environment.
 
 
 
