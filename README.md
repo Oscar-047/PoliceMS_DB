@@ -196,22 +196,15 @@ monday_26281_oscar_policeBD_db
 - Password: Oscar
 - Structure: File directories were specified via `FILE_NAME_CONVERT`.
 
-📸 **Screenshot**:  
-![Pluggable Database Created](screenshots/create_pdb1.png)
 
 
-
-### 2. Session Configuration and User Privileges
+# 2. Session Configuration and User Privileges
 
 - The session container was set to the newly created pluggable database.
 - A user `Oscar` was created and granted **all privileges**.
 
-📸 **Screenshot**:  
-![User Privileges Setup](screenshots/user_privileges.png)
 
----
-
-### 3. Table Creation Verification
+## 3. Table Creation Verification
 
 After connecting to the database via Oracle SQL Developer, all necessary tables were created and verified.
 
@@ -225,10 +218,6 @@ After connecting to the database via Oracle SQL Developer, all necessary tables 
 - RESOURCES
 - SUSPECTS
 - VICTIMS
-
-**Screenshot**:  
-![Table List](screenshots/table_list.png)
-
 
 ## Access & Management
 
