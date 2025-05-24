@@ -130,7 +130,7 @@ This phase presents the logical data model for the PoliceMS_DB system, aligning 
 
 ---
 
-## 🔗 Relationship Tables
+## Relationship Tables
 
 ### Case_Crime
 - case_id (FK)
