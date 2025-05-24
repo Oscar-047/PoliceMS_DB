@@ -263,4 +263,7 @@ The ER diagram presents a clear view of the one-to-many relationship between off
 This is how I altered an existing table The ALTER TABLE command allows you to modify the structure of an existing table without losing data. 
 ### Drop Table
 This is how I dropped a table from the database. The DROP TABLE command completely removes the table structure and its data from the database.
+
+
+
 <img width="507" alt="Image" src="https://github.com/user-attachments/assets/ce9dcbe4-133e-4a62-b97b-0dbc7b536f31" />
