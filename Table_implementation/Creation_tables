@@ -1,1 +1,16 @@
+CREATE TABLE Officers (
+  OfficerID NUMBER PRIMARY KEY,
+  FullName VARCHAR2(100) NOT NULL,
+  Rank VARCHAR2(50),
+  Phone VARCHAR2(20),
+  Email VARCHAR2(100) UNIQUE
+);
 
+CREATE TABLE Cases (
+  CaseID NUMBER PRIMARY KEY,
+  CaseStatus VARCHAR2(20),
+  OpenedOn DATE,
+  ClosedOn DATE,
+  OfficerID NUMBER,
+  FOREIGN KEY (OfficerID) REFERENCES Officers(OfficerID)
+);
