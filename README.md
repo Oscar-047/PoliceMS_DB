@@ -20,7 +20,7 @@ Enable auditing, restriction controls, and reporting.
 
 # Business Process Modeling – MIS
 
-
+![BPMN image](https://github.com/user-attachments/assets/ff4bf02b-8085-4e00-9895-2432ef444b32)
 
 
 # Scope
