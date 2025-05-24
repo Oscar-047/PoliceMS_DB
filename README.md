@@ -204,7 +204,7 @@ monday_26281_oscar_policeBD_db
 - Password: Oscar
 - Structure: File directories were specified via `FILE_NAME_CONVERT`.
 
-
+<img width="393" alt="Image" src="https://github.com/user-attachments/assets/7149ff66-b469-4e54-9e34-35a778c13c6c" />
 
 # 2. Session Configuration and User Privileges
 
