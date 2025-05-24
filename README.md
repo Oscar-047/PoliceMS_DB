@@ -189,6 +189,9 @@ Accurate tracking of case progress and entity relationships
 In this phase, a pluggable Oracle database was created and configured to support the PoliceMS_DB system. The database creation followed the project naming convention and included full user access privileges.
 
 
+<img width="345" alt="Image" src="https://github.com/user-attachments/assets/a87278fe-e976-4739-94b0-f95a5d226f69" />
+
+
 # Tasks Completed
 
 #1. Pluggable Database Creation
