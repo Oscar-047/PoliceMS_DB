@@ -264,6 +264,39 @@ This is how I altered an existing table The ALTER TABLE command allows you to mo
 ### Drop Table
 This is how I dropped a table from the database. The DROP TABLE command completely removes the table structure and its data from the database.
 
-
-
 <img width="507" alt="Image" src="https://github.com/user-attachments/assets/ce9dcbe4-133e-4a62-b97b-0dbc7b536f31" />
+
+### Procedures
+This is how I created a procedure:
+I wrote a stored procedure in Oracle SQL to retrieve an officer's name based on their ID. The procedure takes the officer's ID as a parameter, queries the Officers table, and outputs the officer’s name using DBMS_OUTPUT. Exception handling is included to display a message if no officer is found with the given ID
+
+<img width="647" alt="Image" src="https://github.com/user-attachments/assets/d0e583f1-bde9-4f6b-89df-37aaf0091f45" />
+
+This is how I created a function:
+I implemented a function in Oracle SQL that returns the number of open cases in the Cases table. This function helps in performing quick analytical checks and can be reused wherever case count analytics are needed.
+
+<img width="755" alt="Image" src="https://github.com/user-attachments/assets/ac09128e-dc97-43e8-a45f-0a7ce613da8f" />
+
+This is how I created a procedure using a cursor to loop through all records in the Crimes table and display each crime’s ID and type. This approach is helpful when we want to process and display multiple rows from a table one at a time.
+
+<img width="725" alt="Image" src="https://github.com/user-attachments/assets/35f87720-656c-4a6b-b432-423717fa74d3" />
+
+
+## EXCEPTION HANDLING IN PROCEDURE
+
+Exception Handling in Procedures
+This is how I created a procedure that fetches officer information and includes robust exception handling. The procedure ensures that appropriate error messages are shown when no data is found, when multiple rows are returned unexpectedly, or when any other error occurs.
+
+<img width="608" alt="Image" src="https://github.com/user-attachments/assets/f27f65ad-5d81-413f-bb0e-0ca38eba7f50" />
+
+ This is how i done with Trigger and Auditing
+We used PL/SQL triggers to enforce security policies and implemented auditing to track user activity
+
+<img width="534" alt="Image" src="https://github.com/user-attachments/assets/e2071543-8582-43f5-871c-5a51520f47f1" />
+
+
+ Auditor Trigger and Audit Table
+ I created an audit table and a trigger to log any sensitive changes on the Officers table.
+
+
+ <img width="590" alt="Image" src="https://github.com/user-attachments/assets/2309aacf-19b9-4ca2-8d84-8750b98f8c8c" />
