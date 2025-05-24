@@ -81,7 +81,6 @@ Enhances Transparency: Every actor’s role and data interaction is recorded and
   # Phase 3: Logical Model Design
 
 
-  ![image alt](image_url)https://github.com/Oscar-047/PoliceMS_DB/blob/7fda51607560af0a6636a37cc1e456e7519af9c1/3_Logical_Model_Design/Phase%203.jpg
 
 ## Objective
 This phase presents the logical data model for the PoliceMS_DB system, aligning with the problem statement and business process from Phases 1 and 2. It defines all necessary entities, relationships, keys, and constraints based on real-world law enforcement operations.
