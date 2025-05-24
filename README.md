@@ -21,7 +21,7 @@ Enable auditing, restriction controls, and reporting.
 # Business Process Modeling – MIS
 
 
-![image alt](image_url)https://github.com/Oscar-047/PoliceMS_DB/blob/4234313755271b5cacaf67cfe229f5883525b2cf/2_Business_Process_Modeling/BPMN.jpg
+
 
 # Scope
 
