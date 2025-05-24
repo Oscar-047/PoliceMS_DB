@@ -1,1 +1,8 @@
+-- Officers
+INSERT INTO Officers VALUES (100, 'MUGISHA', 'Inspector', '0770893256', 'mugisha@gmail.com');
+INSERT INTO Officers VALUES (200, 'Eric', 'Sergent', '0770553312', 'eric@gmail.com');
+INSERT INTO Officers VALUES (300, 'Grace', 'Sergent', '0778663290', 'grace@gmail.com');
 
+-- Cases
+INSERT INTO Cases VALUES (11, 'Open', TO_DATE('20-MAY-2022','DD-MON-YYYY'), TO_DATE('19-MAY-2025','DD-MON-YYYY'), 100);
+INSERT INTO Cases VALUES (12, 'Open', TO_DATE('19-JUN-2024','DD-MON-YYYY'), NULL, 200);
