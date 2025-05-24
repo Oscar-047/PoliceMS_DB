@@ -244,3 +244,23 @@ I used realistic officer and case records to simulate typical police system data
 
 
 
+ Delete and Update Operations
+These are examples of how I update and delete records:
+
+I performed updates to simulate changes (like changing case status), and deletions to test referential integrity (ensuring you can’t delete an officer assigned to a case unless handled properly).
+
+<img width="691" alt="Image" src="https://github.com/user-attachments/assets/16a39d9f-123b-4127-8476-784f6306d52c" />
+
+ER Diagram (Optional)
+This visual diagram highlights the relationships:
+
+The ER diagram presents a clear view of the one-to-many relationship between officers and their assigned cases. It also shows how primary and foreign keys are linked.
+
+<img width="747" alt="Image" src="https://github.com/user-attachments/assets/5b8a3029-e9ff-4d3d-9833-15728dc561cb" />
+
+
+### Alter Table
+This is how I altered an existing table The ALTER TABLE command allows you to modify the structure of an existing table without losing data. 
+### Drop Table
+This is how I dropped a table from the database. The DROP TABLE command completely removes the table structure and its data from the database.
+<img width="507" alt="Image" src="https://github.com/user-attachments/assets/ce9dcbe4-133e-4a62-b97b-0dbc7b536f31" />
