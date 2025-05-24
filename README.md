@@ -231,6 +231,15 @@ After connecting to the database via Oracle SQL Developer, all necessary tables 
 
 All activities and data operations throughout the project were stored in this database. This setup ensures a centralized, secure, and manageable data environment.
 
+//
+
+Here is how I created the tables for my PoliceMS_DB project:
+
+Using Oracle SQL, I defined two tables: Officers and Cases. Each table includes properly chosen data types, a primary key, and necessary constraints like NOT NULL and UNIQUE. The Cases table includes a foreign key to reference the responsible officer.
+
+<img width="469" alt="Image" src="https://github.com/user-attachments/assets/9c8fe008-7b03-433e-be6b-6741bed0ca2c" />
+
+<img width="438" alt="Image" src="https://github.com/user-attachments/assets/cff4365d-0a93-4b6c-bc3d-e2f9e48a030b" />
 
 
 
