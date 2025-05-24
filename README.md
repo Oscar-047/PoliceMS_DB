@@ -235,7 +235,8 @@ All activities and data operations throughout the project were stored in this da
 
 Here is how I created the tables for my PoliceMS_DB project:
 
-Using Oracle SQL, I defined two tables: Officers and Cases. Each table includes properly chosen data types, a primary key, and necessary constraints like NOT NULL and UNIQUE. The Cases table includes a foreign key to reference the responsible officer.
+Using Oracle SQL, I defined two tables: Officers and Cases. Each table includes properly chosen data types, a primary key, and necessary constraints like NOT NULL and UNIQUE. The Cases table includes a foreign key to reference the responsible officer and This is how I inserted meaningful data into the tables:
+I used realistic officer and case records to simulate typical police system data. The dates, IDs, and personal details are structured to reflect real-world scenarios, helping to test and demonstrate database functionality.
 
 <img width="469" alt="Image" src="https://github.com/user-attachments/assets/9c8fe008-7b03-433e-be6b-6741bed0ca2c" />
 
